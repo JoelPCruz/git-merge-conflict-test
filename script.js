@@ -13,4 +13,5 @@ class CreateHtmlElement {
 
 const newLiElement = new CreateHtmlElement("li","hello"); 
 
-
+// gets the remote from current repo
+// git config --get remote.origin.url
