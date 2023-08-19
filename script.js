@@ -3,13 +3,13 @@
 const createHtmlString = str => `${str}`;  
 
 class CreateHtmlElement {
-    constructor(element, string){
-        this.element = element;
-        this.string = string;
-        return `<${element}>${string}</${element}>`;
+    constructor(htmlElement, text){
+        this.htmlElement = htmlElement;
+        this.text = text;
+        return `<${htmlElement}>${text}</${element}>`;
     }
-    createHtmlString(str) {
-        return `${str}`;
+    createHtmlString(string) {
+        return `${string}`;
     }
 }
 
